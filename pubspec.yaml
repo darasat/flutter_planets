@@ -1,0 +1,37 @@
+name: planets_app
+description: "Flutter app to explore planets using an API."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Estado
+  flutter_riverpod: ^2.5.1
+
+  # Navegación
+  go_router: ^13.2.0
+
+  # Almacenamiento local
+  shared_preferences: ^2.2.3
+
+  # HTTP Requests
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
